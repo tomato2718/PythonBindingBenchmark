@@ -1,4 +1,4 @@
-# Python Binding Benchmark
+# Python BindingBenchmark
 
 Testing performance of different ways to optimize Python modules under multithreaded environments.
 
@@ -17,6 +17,8 @@ Running fibonacci recursively without cache to simulate CPU bound tasks.
 See: `benchmark.py`
 
 ## Result
+
+Time spent for each approach (seconds)
 
 |               | Pure Python | Nuitka Compiled python | Rust PyO3 | Rust PyO3 GIL freed |
 |---------------|-------------|------------------------|-----------|---------------------|
